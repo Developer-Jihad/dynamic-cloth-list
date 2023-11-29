@@ -1,0 +1,15 @@
+table,
+th,
+td {
+  border: 1px solid salmon;
+  border-collapse: collapse;
+  padding: 5px 20px;
+}
+
+th {
+  background-color: salmon;
+  color: white;
+}
+td{
+  background-color: lightcyan;
+}
