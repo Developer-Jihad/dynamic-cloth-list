@@ -4,14 +4,13 @@ import "./App.css";
 
 function App() {
   return (
-    <>
+    <><br />
       <h1 className="title">
         Dynamic Cloths list Application with CRUD Operations
       </h1><br />
-      <hr />
-      <br />
       <FormData />
       <ProductTable />
+      <br />
     </>
   );
 }

@@ -1,15 +1,32 @@
-table,
-th,
-td {
-  border: 1px solid salmon;
+.product-table{
+  padding: 20px;
+  background-color: aliceblue;
+  border-radius: 10px ;
+  border: 1px solid rgb(2, 36, 2);
+  box-shadow: 5px 10px 18px lightgrey;
+  margin-bottom: 30px;
+  background-image: url(../../assets/images/cost.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 35%;
+
+}
+
+table {
   border-collapse: collapse;
   padding: 5px 20px;
+  border-radius: 10px;
 }
 
 th {
-  background-color: salmon;
-  color: white;
+  background-color: rgb(2, 36, 2);
+  color: rgb(108, 245, 194);
+  border: none;
+  padding: 5px 20px;
 }
-td{
-  background-color: lightcyan;
+
+td {
+  background-color: white;
+  border: 1px solid salmon;
+  padding: 5px 20px;
 }

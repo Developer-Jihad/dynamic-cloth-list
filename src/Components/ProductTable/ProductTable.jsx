@@ -5,8 +5,8 @@ import { RiDeleteBack2Fill } from "react-icons/ri";
 export default function ProductTable({ formData, deleteElement }) {
   return (
     <>
-      <div>
         {formData && (
+      <div className="product-table">
           <table>
             <thead>
               <tr>
@@ -19,7 +19,7 @@ export default function ProductTable({ formData, deleteElement }) {
                 <th>Size</th>
                 <th>Manufacture</th>
                 <th>
-                  <MdDeleteForever />
+                  <MdDeleteForever color="red" />
                 </th>
               </tr>
             </thead>
@@ -35,7 +35,8 @@ export default function ProductTable({ formData, deleteElement }) {
                   <td>{data.size}</td>
                   <td>{data.manufectureDate}</td>
                   <td>
-                    <RiDeleteBack2Fill color="red"
+                    <RiDeleteBack2Fill
+                      color="red"
                       onClick={() => deleteElement(data.productId)}
                     />
                   </td>
@@ -43,8 +44,8 @@ export default function ProductTable({ formData, deleteElement }) {
               ))}
             </tbody>
           </table>
-        )}
       </div>
+        )}
     </>
   );
 }

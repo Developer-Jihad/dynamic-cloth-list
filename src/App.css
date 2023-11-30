@@ -2,7 +2,9 @@
     margin-top: 30px;
     margin-bottom: 10px;
     text-align: center;
-    color: salmon;
+    color: rgb(2, 36, 2);
+    background-color: rgb(108, 245, 194);
     font-family: sans-serif;
-    border-radius: 5px;
+    border-radius: 7px;
+    padding: 10px 0px;
 }
