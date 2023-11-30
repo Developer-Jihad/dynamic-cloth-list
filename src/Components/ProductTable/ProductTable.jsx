@@ -37,7 +37,7 @@ export default function ProductTable({ formData, deleteElement }) {
                   <td>
                     <RiDeleteBack2Fill
                       color="red"
-                      onClick={() => deleteElement(data.productId)}
+                      onClick={() => deleteElement(data.clothId)}
                     />
                   </td>
                 </tr>

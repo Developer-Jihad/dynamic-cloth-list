@@ -30,7 +30,7 @@ export default function FormData() {
 
   // Handle Delete
   const deleteElement = (id) => {
-    const filteredData = formData.filter((data) => data.productId !== id);
+    const filteredData = formData.filter((data) => data.clothId !== id);
     setFormData(filteredData);
   };
 
